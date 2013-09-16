@@ -1,0 +1,19 @@
+_i=1-2 in _j=_i-2 in parameter StMM_i_j=
+                Zt1_i*MSt1**2*Zt1_j
+               +Zt2_i*MSt2**2*Zt2_j.
+
+
+%parameter MtMM= StMM12/(-mu*cb/sb+At).
+
+parameter MtMM=MtRun(sqrt(MSt1*MSt2)).
+parameter AT=(StMM12+mu*cb/sb*MtMM)/MtMM.
+
+_i=1-2 in _j=_i-2 in parameter SbMM_i_j=
+                Zb1_i*MSb1**2*Zb1_j
+               +Zb2_i*MSb2**2*Zb2_j.
+
+%parameter MbMM= SbMM12/(-mu*sb/cb+Ab).
+
+parameter MbMM=MtRun(sqrt(MSb1*MSb2)).  
+parameter AB=(SbMM12+mu*sb/cb*MbMM)/MbMM.
+

@@ -1,0 +1,18 @@
+#!/bin/bash
+
+for f in SAMPLES/*inp*
+do
+  run $f
+done
+for f in BMPGMSB/*inp*
+do
+  run $f
+done
+for f in BMPSUGRA/*inp*
+do
+  run $f
+done
+for f in BMPLHC/*inp*
+do
+  run $f
+done

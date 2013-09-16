@@ -1,0 +1,25 @@
+# RELIC DENSITY CALCULATED BY MICROMEGAS
+#
+BLOCK RDINFO   # Program information
+     1   MicrOmegas # Dark matter package
+     2   4.0.0      # Version number
+     3   # Relic density too large (WMAP)
+#
+BLOCK ABUNDANCE
+   1   2.8137E+00   #  T_f[GeV]
+   4   1.2808E-01   #  omega h^2
+   3   4.1064E-26   #  vSigma
+# contibutions to vSigma in percents
+   6   1   1000022   1000022         5        -5   8.8891E+01   # ~o1 ~o1 -> b B                                    
+   6   2   1000022   1000022        15       -15   9.4405E+00   # ~o1 ~o1 -> l L                                    
+# contibutions to 1/Omega in percents
+   7   1   1000022   1000022         5        -5   8.8295E+01   # ~o1 ~o1 -> b B                                    
+   7   2   1000022   1000022        15       -15   9.4011E+00   # ~o1 ~o1 -> l L                                    
+#
+BLOCK LSP
+   0   6.9209E+01   #  LSP mass
+   1   9.6627E-01   #  bino
+   2   1.2274E-01   #  wino
+   3   8.7246E-02   #  higgsino2
+   4   2.0891E-01   #  higgsino1
+   5   3.0227E-03   #  singlino

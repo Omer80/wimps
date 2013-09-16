@@ -1,0 +1,70 @@
+# HIGGS + TOP BRANCHING RATIOS IN SLHA FORMAT
+# Info about decay package
+BLOCK DCINFO   # Program information
+     1   NMSSMTools # Decay package
+     2   4.0.0      # Version number
+#           PDG          Width
+DECAY        25     2.55975063E-03   # Lightest neutral Higgs scalar
+     9.26857378E-03    2          21        21   # BR(H_1 -> gluon gluon)
+     3.16126901E-04    2          13       -13   # BR(H_1 -> muon muon)
+     8.92450106E-02    2          15       -15   # BR(H_1 -> tau tau)
+     6.87882851E-04    2           3        -3   # BR(H_1 -> s sbar)
+     7.95092650E-03    2           4        -4   # BR(H_1 -> c cbar)
+     8.90746550E-01    2           5        -5   # BR(H_1 -> b bbar)
+     1.31115136E-03    2          24       -24   # BR(H_1 -> W+ W-)
+     9.97170717E-06    2          23        23   # BR(H_1 -> Z Z)
+     4.52488963E-04    2          22        22   # BR(H_1 -> gamma gamma)
+     1.13175897E-05    2          23        22   # BR(H_1 -> Z gamma)
+DECAY        35     9.28393559E-03   # 2nd neutral Higgs scalar
+     1.06826492E-02    2          21        21   # BR(H_2 -> gluon gluon)
+     3.17411727E-04    2          13       -13   # BR(H_2 -> muon muon)
+     8.96565629E-02    2          15       -15   # BR(H_2 -> tau tau)
+     6.67384372E-04    2           3        -3   # BR(H_2 -> s sbar)
+     7.11201978E-03    2           4        -4   # BR(H_2 -> c cbar)
+     8.65427658E-01    2           5        -5   # BR(H_2 -> b bbar)
+     2.33374977E-02    2          24       -24   # BR(H_2 -> W+ W-)
+     1.93341231E-03    2          23        23   # BR(H_2 -> Z Z)
+     6.13397249E-04    2          22        22   # BR(H_2 -> gamma gamma)
+     2.52007019E-04    2          23        22   # BR(H_2 -> Z gamma)
+DECAY        45     1.23124968E-01   # 3rd neutral Higgs scalar
+     2.38310643E-03    2          21        21   # BR(H_3 -> gluon gluon)
+     2.79065974E-04    2          13       -13   # BR(H_3 -> muon muon)
+     7.88849904E-02    2          15       -15   # BR(H_3 -> tau tau)
+     5.36536776E-04    2           3        -3   # BR(H_3 -> s sbar)
+     4.91975106E-04    2           4        -4   # BR(H_3 -> c cbar)
+     7.07732904E-01    2           5        -5   # BR(H_3 -> b bbar)
+     1.74236105E-01    2          24       -24   # BR(H_3 -> W+ W-)
+     5.97389870E-03    2          23        23   # BR(H_3 -> Z Z)
+     9.55230769E-06    2          22        22   # BR(H_3 -> gamma gamma)
+     3.77402817E-05    2          23        22   # BR(H_3 -> Z gamma)
+     2.94341258E-02    2     1000022   1000022   # BR(H_3 -> neu_1 neu_1)
+DECAY        36     2.37103741E-04   # Lightest pseudoscalar
+     8.40570695E-04    2          21        21   # BR(A_1 -> gluon gluon)
+     3.34914529E-04    2          13       -13   # BR(A_1 -> muon muon)
+     9.46934799E-02    2          15       -15   # BR(A_1 -> tau tau)
+     6.85772414E-04    2           3        -3   # BR(A_1 -> s sbar)
+     1.59006335E-04    2           4        -4   # BR(A_1 -> c cbar)
+     9.03284536E-01    2           5        -5   # BR(A_1 -> b bbar)
+     9.44907490E-07    2          22        22   # BR(A_1 -> gamma gamma)
+     7.75644033E-07    2          23        22   # BR(A_1 -> Z gamma)
+DECAY        46     1.23414656E-01   # 2nd pseudoscalar
+     4.38515394E-04    2          21        21   # BR(A_2 -> gluon gluon)
+     3.04450933E-04    2          13       -13   # BR(A_2 -> muon muon)
+     8.60946881E-02    2          15       -15   # BR(A_2 -> tau tau)
+     5.90746550E-04    2           3        -3   # BR(A_2 -> s sbar)
+     9.50343650E-05    2           4        -4   # BR(A_2 -> c cbar)
+     7.77129162E-01    2           5        -5   # BR(A_2 -> b bbar)
+     6.25020425E-06    2          22        22   # BR(A_2 -> gamma gamma)
+     1.12191660E-05    2          23        22   # BR(A_2 -> Z gamma)
+     1.35329933E-01    2     1000022   1000022   # BR(A_2 -> neu_1 neu_1)
+DECAY        37     2.69088550E-02   # Charged Higgs
+     1.54699292E-03    2         -13        14   # BR(H+ -> muon nu_muon)
+     4.37486325E-01    2         -15        16   # BR(H+ -> tau nu_tau)
+     1.38498659E-04    2           2        -3   # BR(H+ -> u sbar)
+     2.99914568E-03    2           4        -3   # BR(H+ -> c sbar)
+     6.00816467E-05    2           2        -5   # BR(H+ -> u bbar)
+     6.01591885E-03    2           4        -5   # BR(H+ -> c bbar)
+     5.32800264E-01    2           6        -5   # BR(H+ -> t bbar)
+     1.89527736E-02    2          24        25   # BR(H+ -> W+ H_1)
+DECAY         6     1.33482521E+00   # Top Quark
+     1.00000000E+00    2           5        24   # BR(t ->  b    W+)

@@ -71,15 +71,15 @@
 //#define NEUTRINO 
  /*  Neutrino signal of DM annihilation in Sun and Earth */
  
-//#define DECAYS 
+#define DECAYS 
       /* Calculate decay widths and branchings  */      
-//#define CROSS_SECTIONS 
+#define CROSS_SECTIONS 
       /* Calculate cross sections of reactions specified by the user */
 
 /*===== end of Modules  ======*/
 
 /*===== Options ========*/
-//#define SHOWPLOTS 
+#define SHOWPLOTS 
      /* Display  graphical plots on the screen */ 
 
 #define CLEAN    to clean intermediate files
